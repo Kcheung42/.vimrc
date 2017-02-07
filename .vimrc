@@ -2,7 +2,6 @@ execute pathogen#infect()
 
 " basic
 :set number
-:set mouse=n
 :set shiftwidth=4
 :set showcmd
 :set tabstop=4
@@ -49,3 +48,9 @@ nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 set showmode
 
+" Code Folding
+set foldmethod=indent
+set foldlevel=99
+
+"Enable folding with spacebar
+nnoremap <space> za
