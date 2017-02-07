@@ -1,5 +1,6 @@
 execute pathogen#infect()
 
+"test comment
 " basic
 :set number
 :set shiftwidth=4
